@@ -28,7 +28,7 @@
 	// Fires when an attribute was added, removed, or updated
 	el.attributeChangedCallback = function(attr, oldVal, newVal) {};
 
-	document.registerElement('construct-component', {
+	document.registerElement('construct-grounded', {
 		prototype: el
 	});
 }());
